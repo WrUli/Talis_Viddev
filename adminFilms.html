@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/libs/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/admin.css">
+    
+</head>
+<body>
+
+    <header id="header">
+        <h1><img src="../assets/images/imageLogoViddev.png" alt="logoViddev" class="logoViddev
+            "></h1>
+        <nav>
+            <ul class="nav">
+                <div class="navleft">
+                    <li> <a href="index.html"> Accueil</a></li>
+                    <li> <a href="admin.html">Utilisateurs</a></li>
+                    <li> <a href="adminFilms.html"> Gestion films et séries</a></li>
+
+                </div>
+                
+            </ul>
+            <ul class="ulGenre">
+                <li><a href="comedie.html">Comédies</a></li>
+                <li><a href="">Thrillers</a></li>
+                <li><a href="">Sciences fictions</a></li>
+                <li><a href="">Fantastiques - Fantaisies</a></li>
+                <li><a href="">Films de Noël</a></li>
+            </ul>
+            <ul class="ulCat">
+                <li><a href="">Films</a></li>
+                <li><a href="">Séries</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section>
+            <div class="searchIn">
+                <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Search a film">
+                <button id="addFilm">Ajouter un film</button>
+                <div id="formContainer" class="displayNone">
+                    <div class="form">
+                    <input type="text" name="" id="" placeholder="Nom">
+                    <input type="text" placeholder="Catégorie">
+                    <input type="text" placeholder="Genre">
+                    <input type="text" placeholder="Url image">
+                    <input type="text" placeholder="Réalisateur">
+                    <input type="text" placeholder="Année">
+                    <input type="text" placeholder="Résumé" class="lastInput">
+                    <div class="formBtnContainer">
+                        <button class="formBtn">Ajouter</button>
+                    </div>
+                    
+                 <div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <div id="filmsContainer"></div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div> <img src="../assets/images/imageLogoViddev.png" alt="" class="logoFooter"></div>
+        <ul class="ulFooter">
+            <li>Envoyez-nous votre avis</li>
+            <li>Aide</li>
+            <li>Condition générale d'utilisation</li>
+            <li class="viddevFooter">© 2022-2022 Viddev</li>
+        </ul>
+    </footer>
+
+
+<script src="assets/js/adminFilms.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+/*# sourceMappingURL=style.css.map */
+
+/* <-------------- CSS GLOBAL --------------> */
+/* <-------------- CSS GLOBAL --------------> */
+
+/* POLICE CSS */
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url('../fonts/Karla-VariableFont_wght.ttf');
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'karla';
+    background-color: #28303a;
+}
+
+.tittle {
+    width: 800px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 20px 0 10px 50px;
+    transition:  500ms;
+}
+
+.tittle:hover{
+    color: #3daa0e;
+}
+
+/* <-------------- CSS GLOBAL --------------> */
+/* <-------------- CSS GLOBAL --------------> */
+
+
+/* <-------------- CSS HEADER --------------> */
+/* <-------------- CSS HEADER --------------> */
+#header {
+    display: flex;
+    height: 20vh;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(172, 183, 188);
+}
+
+.logoViddev {
+    height: 120px;
+    padding: 10px 0px 0px 40px;
+}
+
+/* h1 {
+    color: #DBB052;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 75px;
+} */
+
+ul {
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    gap: 10px;
+    list-style: none;
+    margin-top: 42px;
+    padding-left: 30px;
+    transition: 500ms;
+}
+ul:hover {
+    color: #3daa0e;
+}
+
+li {
+    transition:  500ms;
+}
+li:hover {
+    color: #3daa0e;  
+}
+
+i {
+    transition:  500ms;
+}
+i:hover {
+    color: #3daa0e; 
+}
+
+a:hover {
+    color: #2C9300; 
+}
+
+.navleft {
+    display: flex;
+    gap: 30px;
+}
+
+.logIn {
+    padding-left: 320px;
+}
+
+.fa-chevron-down {
+    padding-left: 2px;
+    position: relative;
+}
+
+.ulGenre {
+    position: absolute;
+    display: none;
+    margin-left: 287px;
+    top: 9%;
+    padding: 10px;
+    background-color: rgb(172, 183, 188);
+    border-radius: 4px;
+    z-index: 5;
+    font-size: 15px;
+    line-height: 30px;
+    transition: 500ms;
+}
+
+.ulCat {
+    position: absolute;
+    display: none;
+    background-color: rgb(172, 183, 188);
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 125px;
+    top: 9%;
+    z-index: 5;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+/* <-------------- CSS HEADER --------------> */
+/* <-------------- CSS HEADER --------------> */
+
+
+/* <-------------- CSS CARROUSEL --------------> */
+/* <-------------- CSS CARROUSEL --------------> */
+
+ /* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -5px;
+}
+
+/* .slick-track {
+    transform: translate3D(-5px, 0px, 0px);
+} */
+
+
+
+/* <-------------- CSS CARROUSEL --------------> */
+/* <-------------- CSS CARROUSEL --------------> */
+
+/* <-------------- CSS FILM COMEDIE --------------> */
+/* <-------------- CSS FILM COMEDIE --------------> */
+#comedie {
+    background-color: #2c930008;
+    padding-bottom: 20px;
+}
+
+#comedieContainer {
+    margin: 0 30px;
+}
+
+.comedieArticle>img{
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.comedieArticle>img:hover{
+    scale: 1.05;
+}
+
+
+/* <-------------- CSS FILM COMEDIE --------------> */
+/* <-------------- CSS FILM COMEDIE --------------> */
+
+/* <-------------- CSS FILM THRILLER --------------> */
+/* <-------------- CSS FILM THRILLER--------------> */
+
+#thriller {
+    background-color: #2c930008;
+    padding-bottom: 20px;
+}   
+
+#thrillerContainer {
+    margin: 0 30px;
+}
+
+.thrillerArticle>img{
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.thrillerArticle>img:hover{
+    scale: 1.1;
+}
+
+/* <-------------- CSS FILM THRILLER --------------> */
+/* <-------------- CSS FILM THRILLER --------------> */
+
+/* <-------------- TAB FILMS SCIENCE FICTION -------------->  */
+/* <-------------- TAB FILMS SCIENCE FICTION -------------->  */
+
+#sf {
+    background-color: #2c930008;
+    padding-bottom: 20px;
+}   
+
+#sfContainer {
+    margin: 0 30px;
+}
+
+.sfArticle>img{
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.sfArticle>img:hover{
+    scale: 1.1;
+}
+
+/* <-------------- TAB FILMS SCIENCE FICTION -------------->  */
+/* <-------------- TAB FILMS SCIENCE FICTION -------------->  */
+
+/* <-------------- TAB FILMS FANTASTIQUE FANTAISIE -------------->  */
+/* <-------------- TAB FILMS FANTASTIQUE FANTAISIE -------------->  */
+
+#ff {
+    background-color: #2c930008;
+    padding-bottom: 20px;
+}   
+
+#ffContainer {
+    margin: 0 30px;
+}
+
+.ffArticle>img{
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.ffArticle>img:hover{
+    scale: 1.1;
+}
+
+/* <-------------- TAB FILMS FANTASTIQUE FANTAISIE -------------->  */
+/* <-------------- TAB FILMS FANTASTIQUE FANTAISIE -------------->  */
+
+/* <-------------- TAB FILMS NOEL -------------->  */
+/* <-------------- TAB FILMS NOEL -------------->  */
+
+#noel {
+    background-color: #2c930008;
+    padding-bottom: 75px;
+}  
+
+#noelContainer {
+    margin: 0 30px;
+}
+
+.noelArticle>img{
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.noelArticle>img:hover{
+    scale: 1.1;
+}
+
+/* <-------------- TAB FILMS NOEL -------------->  */
+/* <-------------- TAB FILMS NOEL -------------->  */
+
+/* <-------------- CSS FOOTER --------------> */
+/* <-------------- CSS FOOTER --------------> */
+
+#footer {
+    height:  15vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(172, 183, 188); 
+    justify-content: space-around;
+}
+.logoFooter {
+    height: 75px;
+    padding-top: 10px;
+}
+
+.ulFooter {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.viddevFooter {
+    font-size: 10px;
+    padding-top: 4px;
+}
+/* <-------------- CSS FOOTER --------------> */
+/* <-------------- CSS FOOTER --------------> */
+
+@media screen and (max-width:1500px) {
+    .logIn {
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width:1336px) {
+    .logIn {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .logIn {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    ul {
+        font-size: 15px;
+        gap : 5px;
+    }
+    .logoViddev {
+        height: 75px;
+        padding-top: 30px;
+    }
+    .navleft {
+        gap: 10px;
+    }
+    .inputNav {
+        width: 100px;
+    }
+    #header {
+        height : 10vh;
+    }
+}
+
+@media screen and (max-width:850px) {
+    
+    input {
+        width: 100px;
+    }
+    #header {
+        flex-direction: column;
+    }
+    .nav {
+        width: 600px;
+        margin-bottom: 20px;
+    }
+}
+

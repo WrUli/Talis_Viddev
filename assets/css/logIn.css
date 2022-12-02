@@ -1,0 +1,51 @@
+body {
+    font-family: 'karla';
+    background-color: white;
+}
+
+.aled {
+    color: rgba(244, 245, 245, 0.405);
+    font-size: 20px;
+}
+
+.formLog {
+    height: 58vh;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer {
+    border: 1px solid #ACB7BC;
+    border-radius: 10px;
+
+}
+
+form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+form>input {
+    height: 40px;
+    border: 1px solid #ACB7BC;  
+    padding-left: 8px;
+}
+
+form>input::placeholder {
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.inputHover:hover {
+    color: #2C9300;
+    border: 1.5px solid #2C9300;
+}

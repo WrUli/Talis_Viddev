@@ -1,0 +1,53 @@
+.firstCarou {
+    background-image: url("https://www.welovecomedy.fr/wp-content/uploads/2022/05/la-cit%C3%A9-de-la-peur.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+} 
+.firstCarou:hover {
+    scale : 1.02;
+}
+
+.secondCarou {
+    background-image: url("https://ayther.fr/wp-content/uploads/2021/07/le-hobbit-2-fin.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.secondCarou:hover {
+    scale : 1.02;
+}
+
+.thirdCarou {
+    background-image: url("https://i.ytimg.com/vi/AELNPQcR6lE/maxresdefault.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.thirdCarou:hover {
+    scale : 1.02;
+}
+
+.fourthCarou {
+    background-image: url("https://freakingeek.com/wp-content/uploads/2016/10/JoyeuxBordel-800x445.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.fourthCarou:hover {
+    scale : 1.02;
+}
+
+.fifthCarou {
+    background-image: url("https://proxymedia.woopic.com/api/v1/images/331%2FLECINQUIEMEW0032203_ban1VOD_550x309.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.fifthCarou:hover {
+    scale : 1.02;
+}
+
+.carouTest {
+    margin: 0 5px;
+}

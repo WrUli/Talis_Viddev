@@ -1,0 +1,155 @@
+body {
+    font-family: 'karla';
+    background-color: white;
+}
+
+#usersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.userArticle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 10px;
+    border: 1px solid #ACB7BC;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.btnBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnBox>button {
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+.btnDelete {
+    background-color: rgb(242, 157, 157);
+}
+
+.btnDelete:hover {
+    background-color: lightcoral;
+}
+
+.searchIn {
+    padding: 10px 20px;
+}
+.searchIn>input {
+    border:1px solid #ACB7BC;
+    border-radius: 5px;
+}
+
+#filmsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+#addFilm {
+    padding: 1px 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1.5px solid #2C9300;
+    background-color: rgb(240, 233, 233);
+    transition: 90ms;
+}
+
+#addFilm:hover{
+    scale: 1.05;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #2C9300;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 450px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+    
+}
+
+.form>input {
+    height: 40px;
+    border: 1px solid #ACB7BC;  
+    margin: 15px;
+    border-radius: 5px;
+    padding-left:20px ;
+}
+
+.lastInput {
+    padding: 20px;
+}
+
+.formBtnContainer {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.displayNone {
+    display: none;
+}
+
+.formBtn {
+    padding: 10px;
+    margin: 0px 0px 20px 5px ;
+    border: 1.5px solid #2C9300;
+    background-color: rgb(240, 233, 233);
+    transition: 90ms;
+    border-radius: 5px;
+
+}
+.formBtn:hover{
+scale: 1.05;
+}
+
+.filmArticle {
+    display: flex;
+    width: 275px;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 10px;
+    border: 1px solid #ACB7BC;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.filmArticle>img {
+    height: 350px;
+}
+
+h2 {
+    padding: 20px 0px;
+    font-size: 25px;
+}
+
+.filmArticle>p {
+    padding: 20px 0px 40px 0px;
+    font-size: 15px;
+}
+
+.btnBox2 {
+    display: flex;
+    position: absolute;
+    gap: 147px;
+    bottom: 1%;
+}
+
+.btnBox2>button {
+    padding: 7px 12px;
+    border-radius: 5px;
+}
